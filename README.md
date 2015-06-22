@@ -1,2 +1,2 @@
-# TSD-AGILE-SDLC
-Agile SDLC Documentation repository for GSA IT's Technology Solution Division
+# [TSD-AGILE-SDLC](http://gsa.github.io/tsd-agile-sdlc/)
+Agile SDLC Documentation repository for GSA IT's Technology Solution Division. Please visit our github IO page for more info: http://gsa.github.io/tsd-agile-sdlc/
