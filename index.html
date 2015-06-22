@@ -7,53 +7,26 @@ permalink: /
 <div id="service">
     <div class="container">
         <div class="row centered">
-            <div class="col-md-4">
-                <i class="fa fa-heart-o"></i>
-                <h4>Handsomely Crafted</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
-            </div>
-            <div class="col-md-4">
-                <i class="fa fa-flask"></i>
-                <h4>Retina Ready</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
-            </div>
-            <div class="col-md-4">
+            <div class="col-md-12">
                 <i class="fa fa-trophy"></i>
-                <h4>Quality Theme</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
-            </div>		 				
-        </div>
+                <h4>"Agile First"</h4>
+            </div>
+        </div><! --/row -->
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <p>In 2012, the GSA IT / Acquisition IT / Technology Solutions Division (TSD) identified a need to better manage it's IT projects. Delays, scope creep, and poorly documented systems caused serious issues, especially when dealing with contractor turnover and contract recompetes.</p>
+
+                <p>After looking at how other groups solved these similar problems, we setout to create our first Agile Scrum team. After 2 years of success and adoption, the TSD division, in 2015, implemented the "Agile First" policy, in which all new IT projects were to be handled using the Agile project managmement methodology.</p>
+
+                <p>As we move towards providing real-time performance analytics to our leadership to help drive better IT decisions, it is imperative that we begin to standardize processes around how we manage Agile projects.</p>
+                
+                <p>This site is dedicated to documenting and sharing the TSD Agile SDLC Process. It is a living breating set of documentation that will grow as our divisions maturity with Agile grows</p>
+                <p><br/><a href="#" class="btn btn-theme">View the SDLC</a></p>
+            </div>	 				
+        </div><! --/row -->
     </div><! --/container -->
 </div><! --/service -->
 
+{% comment %}
 {% include portfolio.html title="LATEST WORKS" limit=10 %}
-
-<div class="container mtb">
-    <div class="row">
-        <div class="col-lg-4 col-lg-offset-1">
-            <h4>More About Our Agency.</h4>
-            <p>{{ site.about }}</p>
-            <p><br/><a href="{{ "/about/" | prepend: site.baseurl }}" class="btn btn-theme">More Info</a></p>
-        </div>
-
-        <div class="col-lg-3">
-            <h4>Frequently Asked</h4>
-            <div class="hline"></div>
-            {% for post in site.categories['question'] %} 
-                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
-            {% endfor %}
-        </div>
-
-        <div class="col-lg-3">
-            <h4>Latest Posts</h4>
-            <div class="hline"></div>
-            {% for post in site.categories['blog'] limit:5 %} 
-                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
-            {% endfor %} 
-        </div>
-
-    </div><! --/row -->
-</div><! --/container -->
+{% endcomment %}
