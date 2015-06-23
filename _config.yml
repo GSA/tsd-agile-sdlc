@@ -71,7 +71,7 @@ members:
 #    img: client04.png
     
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+about: "This site is dedicated to documenting and sharing the TSD Agile SDLC Process. It is a living breating set of documentation that will grow as our divisions maturity with Agile grows"
 
 # Testimonial content. Shown on Home and About page. 
 testimonial:
