@@ -21,7 +21,7 @@ thumb: sdlc01.png
 
 As we move towards providing real-time performance analytics to our leadership to help drive better IT decisions, it is imperative that we begin to standardize processes around how we manage Agile projects.
 
-It is also important to point out where project managers have the flexibility to innovate and develop new ways to manage Agile projects.
+This "SDLC" provides guidance to the entire TSD division on how the division operates in an "agile" environment. It covers the overall lifecycle of the development lifecycle as well as standard operating proceedures for dealing with common issues that projects managers new to Agile Scrum tend to encounter.
 
 It is an important objective of this guidance to be Agile in its own manner. This guidance is open to feedback and will be revised as our organization matures in its ability to manage agile projects.
 

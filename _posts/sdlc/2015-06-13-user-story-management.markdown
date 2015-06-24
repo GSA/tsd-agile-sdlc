@@ -59,7 +59,7 @@ User Stories that are not completed during a normal sprint must be split. This m
 <div class="container">
     <div class="row">
         <div class="col-lg-10 col-lg-offset-1 himg">
-            <img src="../../assets/img/sdlc/user-story-states.png" alt="User Story States">
+            <img src="{{ "/assets/img/sdlc/" | prepend: site.baseurl }}user-story-states.png" alt="User Story States">
         </div>
     </div><!-- /row -->
 </div> <!-- /container -->
