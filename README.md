@@ -3,7 +3,6 @@ Agile SDLC Documentation repository for GSA IT's Technology Solution Division. P
 <<<<<<< HEAD
 =======
 
-
 ## Solid Theme
 This site is using the Jekyll [Solid](http://www.blacktie.co/2014/05/solid-multipurpose-theme/) theme
 >>>>>>> gh-pages
