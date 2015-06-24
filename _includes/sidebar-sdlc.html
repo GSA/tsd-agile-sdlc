@@ -1,0 +1,20 @@
+<div class="col-lg-4">
+   <!--  <h4>Search</h4>
+    <div class="hline"></div>
+        <p>
+            <br/>
+            <input type="text" class="form-control" placeholder="Search something">
+        </p>
+    <div class="spacing"></div> -->
+    <h4>Sections</h4>
+    <div class="hline"></div>
+        <ol class="">
+            {% for post in site.categories.sdlc %} 
+            <li>
+                <p><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
+            </li>
+            {% endfor %} 
+        </ol>
+
+    <div class="spacing"></div>
+</div>

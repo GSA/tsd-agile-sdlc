@@ -1,0 +1,33 @@
+---
+layout: item
+title:  "Scrum Team Charter"
+date:   2015-06-18 16:54:46
+author: David Larrimore
+categories:
+- sdlc
+img: 
+thumb: 
+---
+
+All TSD DM&E Projects that are utilizing the Agile SCRUM development methodology must create an Agile SCRUM Charter that is approved by a TSD Division Branch Chief. The Charter is an extremely important document for all agile teams and serves as the basis for how the entire project is run.
+
+    Note: Work with your Supervisor
+
+Your Agile Scrum Team Charter must be approved by a TSD Division Branch Chief.
+First and foremost, the charter is a tool for the Scrum team to define the most basic elements of how the team will organize. This is extremely important for teams that are new to the agile process and may not be familiar with all of the basic concepts like sprint cadence and definition of done. 
+The charter also assists leadership in understanding expected team velocity and capacity. 
+
+Lastly, the charter serves as a basis of understanding between the Product Owner and scrum team. This is extremely important for having a common understanding of User Acceptance Testing (UAT), as it is the number one contributor to work-in-progress loops, and blockers.
+
+The Scrum team charter includes the following:
+
+
+1. Team Definition
+*       Scrum Team / Developer(s)
+*       SCRUM Master
+*       Business Owner(s)
+5. Sprint and Release Cadences
+6. Definition of Done
+7. Production Release Schedule
+8. User Acceptance Testing (UAT) Plan
+

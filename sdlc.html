@@ -1,6 +1,6 @@
 ---
 layout: sdlc
-title: SDLC
+title: System Development Lifecycle
 permalink: /sdlc/
 ---
 
@@ -10,15 +10,10 @@ permalink: /sdlc/
         <! -- BLOG POSTS LIST -->
         <div class="col-lg-8">
 
-            {% for post in site.categories['sdlc'] %}
-                <! -- Blog Post -->
-                <a href="{{ post.url | prepend: site.baseurl }}">
-                    <img class="img-responsive" src="{{ "/assets/img/sdlc/" | prepend: site.baseurl }}{{ post.img }}">
-                </a>    
+            {% for post in site.categories.sdlc %}
+                <! -- Blog Post -->   
                 <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.title }}</h3></a>
-                <p><csmall>{{ post.date | date: "%b %-d, %Y" }}. | By: {{ post.author }}</csmall></p>
-                {{ post.excerpt }}
-                <p><a href="{{ post.url | prepend: site.baseurl }}">[Read More]</a></p>
+                {{ post.content }}
                 <div class="hline"></div>
 
                 <div class="spacing"></div>
@@ -26,7 +21,7 @@ permalink: /sdlc/
 
         </div><! --/col-lg-8 -->
 
-        {% include sidebar.html %}
+        {% include sidebar-sdlc.html %}
 
     </div><! --/row -->
 </div><! --/container -->
