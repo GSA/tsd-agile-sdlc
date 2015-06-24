@@ -1,0 +1,80 @@
+### GENERAL SETTINGS ###
+
+# Site settings
+title: TSD Agile SDLC.
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+analytics: #Google analytics code in the format XX-nnnnnnnn-n
+baseurl: "/tsd-agile-sdlc" #important: start with /
+url: "http://gsa.github.io/tsd-agile-sdlc/"
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title
+excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
+
+colors:  #in hex code if not noted else
+  primary: "#00b3fe" #"#F70031" 
+  primary_rgb: "0,179,254" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.  
+  secondary: "#384452" #"#33004D"
+  link: "#428bca"
+  link_hover: "#01b2fe"
+  footer_heading: "#ffffff"
+  footer_content: "#bfc9d3"
+  
+  
+### CONTACT SETTINGS ###
+
+# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
+#social:
+#  - title: facebook
+#    url:
+#  - title: twitter
+#    url: 
+#  - title: instagram
+#    url: 
+#  - title: tumblr
+#    url: 
+    
+# Postal address (add as many lines as necessary). Shown in footer and on Contact page.
+address:
+  - lines: 
+    - 1800f street N.W.
+    - Washington, D.C.
+    - United States.
+email: david.larrimore@gsa.gov
+tel: 703-615-3229
+
+
+### GENERAL DATA FOR VARIOUS LOCATIONS ###
+    
+# Members information. Shown on About page.
+members:
+  - name: David Larrimore
+    position: Analytics Branch Chief
+    text: The one, the only, David Larrimore
+    img: IMG_0311.JPG
+    social:
+      - title: envelope #use for email address
+        url: mailto:david.larrimore@gsa.gov
+      - title: twitter
+        url: http://twitter.com/davidlarrimore
+    
+# Clients information. Shown on Home and About pages.
+#clients:
+#  - name: dribbble
+#    img: client01.png
+#  - name: Code is Poetry
+#    img: client02.png
+#  - name: Vimeo
+#    img: client03.png
+#  - name: VimeoPro
+#    img: client04.png
+    
+# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
+about: "This site is dedicated to documenting and sharing the TSD Agile SDLC Process. It is a living breating set of documentation that will grow as our divisions maturity with Agile grows"
+
+# Testimonial content. Shown on Home and About page. 
+testimonial:
+    message: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+    author: Marcel Newman
+    position: WEB DESIGNER - BLACKTIE.CO
