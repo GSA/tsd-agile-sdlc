@@ -8,10 +8,14 @@
     <div class="spacing"></div> -->
     <h4>Sections</h4>
     <div class="hline"></div>
-        <ol class="">
+        <br/>
+        <ul class="nav nav-pills nav-stacked">
+            <li role="presentation" class="">
+                <a href="{{ site.baseurl }}/sdlc/"><strong>View All</strong></a>
+            </li>
             {% for post in site.categories.sdlc %} 
-            <li>
-                <p><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
+            <li role="presentation" class="">
+                <a href="{{ site.baseurl }}{{ post.url }}">&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;{{ post.title }}</a>
             </li>
             {% endfor %} 
         </ol>
