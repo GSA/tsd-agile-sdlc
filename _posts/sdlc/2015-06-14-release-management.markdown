@@ -1,7 +1,7 @@
 ---
 layout: item
 title:  "Release Management"
-date:   2015-06-15 16:54:46
+date:   2015-06-14 16:54:46
 author: David Larrimore
 categories:
 - sdlc
