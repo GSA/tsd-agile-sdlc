@@ -13,10 +13,14 @@ thumb:
 One of the most common problems that teams run into is handling unfinished work. Whether it is defects, scope creep, or technical debt, the team finds itself unable to complete everything it was attempting to do.
 
 
-    **Note: UNDER NO CIRCUMSTANCES IS A TEAM TO EXTEND A SPRINT/TIME BOX's END DATE**
+<div class="alert alert-danger" style="margin-top:30px;margin-bottom:30px;">
+    <strong>UNDER NO CIRCUMSTANCES IS A TEAM TO EXTEND A SPRINT/TIME BOX's END DATE</strong>
+</div>
+
+**Note: UNDER NO CIRCUMSTANCES IS A TEAM TO EXTEND A SPRINT/TIME BOX's END DATE**
 
 
-There are 3 options in handling unfinished work
+There are 2 options in handling unfinished work:
 
 
 #### Moving
