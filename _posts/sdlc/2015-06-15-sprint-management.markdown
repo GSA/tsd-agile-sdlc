@@ -18,9 +18,13 @@ thumb: sdlc01.png
 * Sprints may be re-baselined, but must not break normal time-box. So if a re-baseline is performed mid-sprint, the re-baselined sprint can only be a half-sprint long.
 * Team member capacity must be determined during sprint planning. Team member capacity should be based upon 85% of committed work hours.
 * Team members should not be assigned more that 100% of their available capacity.
-* If a user story is not completed and accepted at the end of a sprint, regardless of the progress the team made, it does not count towards velocity.
-* If a user story is not completed at the end of a sprint, the SCRUM Master may elect to “Split” the user story into smaller user stories that can be completed over multiple sprints to claim some success. This approach should only be used when it is determined early that a user story will not be completed by the end of a sprint.
 * Sprint re-baselining must be approved by the Business owner and  TSD Branch Chief. 
+
+
+#### Managing Unfinshed Work
+
+**Please see Unfinished Work section.**
+
 
 
 #### Sprint Naming Conventions
