@@ -1,10 +1,10 @@
 ---
-layout: item
+layout: item-scrum
 title:  "Agile Scrum Terminology"
 date:   2015-06-19 16:54:46
 author: David Larrimore
 categories:
-- sdlc
+- scrum
 img: 
 thumb: 
 ---

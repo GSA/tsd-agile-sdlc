@@ -1,10 +1,10 @@
 ---
-layout: item
+layout: item-scrum
 title:  "Standard Milestones and Gates"
 date:   2015-06-17 16:54:46
 author: David Larrimore
 categories:
-- sdlc
+- scrum
 img: 
 thumb: 
 ---

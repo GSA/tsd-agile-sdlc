@@ -1,10 +1,10 @@
 ---
-layout: item
+layout: item-scrum
 title:  "Managing Unfinished Work"
 date:   2015-06-10 16:54:46
 author: David Larrimore
 categories:
-- sdlc
+- scrum
 img: 
 thumb: 
 ---

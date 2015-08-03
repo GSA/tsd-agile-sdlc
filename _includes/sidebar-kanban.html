@@ -1,0 +1,24 @@
+<div class="col-lg-4">
+   <!--  <h4>Search</h4>
+    <div class="hline"></div>
+        <p>
+            <br/>
+            <input type="text" class="form-control" placeholder="Search something">
+        </p>
+    <div class="spacing"></div> -->
+    <h4>Sections</h4>
+    <div class="hline"></div>
+        <br/>
+        <ul class="nav nav-pills nav-stacked">
+            <li role="presentation" class="">
+                <a href="{{ site.baseurl }}/kanban/"><strong>View All</strong></a>
+            </li>
+            {% for post in site.categories.kanban %} 
+            <li role="presentation" class="">
+                <a href="{{ site.baseurl }}{{ post.url }}">&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;{{ post.title }}</a>
+            </li>
+            {% endfor %} 
+        </ol>
+
+    <div class="spacing"></div>
+</div>

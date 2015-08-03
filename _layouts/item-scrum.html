@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+{% include wrap.html %}
+
+<div class="container mtb">
+    <div class="row">
+        <! -- SINGLE POST -->
+        <div class="col-md-8">
+        {% if page.img == null %}{% else %}
+            <div class="col-md-12">
+             <p><img class="img-responsive col-md-10 col-md-offset-1" src="{{ "/assets/img/scrum/" | prepend: site.baseurl }}{{ page.img }}"></p>
+            </div>
+        {% endif %}
+            <div class="col-md-12">&nbsp;</div>
+            <div class="col-md-12"> <! -- Blog Post  -->
+                {{ content }}
+            </div><! --/col-md-12 -->
+
+
+        </div><! --/col-lg-8 -->
+
+        {% include sidebar-scrum.html %}
+
+    </div><! --/row -->
+</div><! --/container -->

@@ -1,10 +1,10 @@
 ---
-layout: item
+layout: item-scrum
 title:  "User Story Management"
 date:   2015-06-13 16:54:46
 author: David Larrimore
 categories:
-- sdlc
+- scrum
 img: 
 thumb: 
 ---
