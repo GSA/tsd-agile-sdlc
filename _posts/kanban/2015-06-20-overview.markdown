@@ -5,8 +5,10 @@ date:   2015-06-20 16:54:46
 author: David Larrimore
 categories:
 - kanban
-img: 
-thumb: 
+img: kanban-board-1.png
+thumb: kanban-board-1.png
 ---
 
-# COMMING SOON!
+Kanban is a popular IT project management methodology focused on managing "Work-In-Progress" or WIP. The concept is that the only thing holding you back is the part of the process that takes the longest to complete.
+
+In the TSD divsion, we provide guidance on Kanban in the form of approved Kanban Models. Each model consists of various states, swimlanes and exit criteria. We do this to help teams pick a model that fits for them, as well as provide support for measuring success of the models.
