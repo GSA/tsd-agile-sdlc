@@ -1,10 +1,10 @@
 ---
-layout: item
+layout: item-scrum
 title:  "Task Management"
 date:   2015-06-12 16:54:46
 author: David Larrimore
 categories:
-- sdlc
+- scrum
 img: 
 thumb: 
 ---

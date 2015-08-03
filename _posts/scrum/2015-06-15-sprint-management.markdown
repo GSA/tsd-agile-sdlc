@@ -1,10 +1,10 @@
 ---
-layout: item
+layout: item-scrum
 title:  "Sprint Management"
 date:   2015-06-15 16:54:46
 author: David Larrimore
 categories:
-- sdlc
+- scrum
 img: sdlc01.png
 thumb: sdlc01.png
 ---

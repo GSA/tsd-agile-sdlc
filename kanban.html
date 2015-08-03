@@ -1,7 +1,7 @@
 ---
-layout: sdlc
-title: System Development Lifecycle
-permalink: /sdlc/
+layout: kanban
+title: Kanban
+permalink: /kanban/
 ---
 
 <div class="container mtb">
@@ -10,7 +10,7 @@ permalink: /sdlc/
         <! -- BLOG POSTS LIST -->
         <div class="col-lg-8">
 
-            {% for post in site.categories.sdlc %}
+            {% for post in site.categories.kanban %}
                 <! -- Blog Post -->   
                 <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.title }}</h3></a>
                 {{ post.content }}
@@ -21,7 +21,7 @@ permalink: /sdlc/
 
         </div><! --/col-lg-8 -->
 
-        {% include sidebar-sdlc.html %}
+        {% include sidebar-kanban.html %}
 
     </div><! --/row -->
 </div><! --/container -->

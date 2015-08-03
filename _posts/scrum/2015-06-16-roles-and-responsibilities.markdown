@@ -1,10 +1,10 @@
 ---
-layout: item
+layout: item-scrum
 title:  "Roles and Responsibilities"
 date:   2015-06-16 16:54:46
 author: David Larrimore
 categories:
-- sdlc
+- scrum
 img: 
 thumb: 
 ---

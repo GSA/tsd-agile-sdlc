@@ -1,0 +1,27 @@
+---
+layout: scrum
+title: Agile Scrum
+permalink: /scrum/
+---
+
+<div class="container mtb">
+    <div class="row">
+
+        <! -- BLOG POSTS LIST -->
+        <div class="col-lg-8">
+
+            {% for post in site.categories.scrum %}
+                <! -- Blog Post -->   
+                <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.title }}</h3></a>
+                {{ post.content }}
+                <div class="hline"></div>
+
+                <div class="spacing"></div>
+            {% endfor %}
+
+        </div><! --/col-lg-8 -->
+
+        {% include sidebar-scrum.html %}
+
+    </div><! --/row -->
+</div><! --/container -->
