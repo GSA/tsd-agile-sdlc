@@ -20,7 +20,7 @@ The charter also assists leadership in understanding expected team velocity and 
 Lastly, the charter serves as a basis of understanding between the Product Owner and scrum team. This is extremely important for having a common understanding of User Acceptance Testing (UAT), as it is the number one contributor to work-in-progress loops, and blockers.
 
 <div class="text-center" style="margin-top:30px;margin-bottom:30px;">
-<a class="btn btn-lg btn-primary" href="{{ post.url | prepend: site.baseurl }}/assets/files/sdlc/TSD-Agile-Scrum-Charter.docx" role="button">Download Sample Charter</a>
+<a class="btn btn-lg btn-primary" href="{{ post.url | prepend: site.baseurl }}/assets/files/scrum/TSD-Agile-Scrum-Charter.docx" role="button">Download Sample Charter</a>
 </div>
 
 
